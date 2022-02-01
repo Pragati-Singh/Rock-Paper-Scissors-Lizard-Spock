@@ -1,33 +1,7 @@
-Rock-Paper-Scissors-Lizard-Spock
 
 
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "name": "ProjectRPSLSPO.ipynb",
-      "provenance": [],
-      "collapsed_sections": []
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "qVL9v80Tw174"
-      },
-      "source": [
-        "# **Rock - Paper - Scissors - Lizard - Spock**"
-      ]
-    },
+ **Rock - Paper - Scissors - Lizard - Spock**"
+    
    
     {
       "cell_type": "markdown",
