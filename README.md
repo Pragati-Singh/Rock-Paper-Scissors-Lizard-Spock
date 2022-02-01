@@ -28,17 +28,7 @@ Rock-Paper-Scissors-Lizard-Spock
         "# **Rock - Paper - Scissors - Lizard - Spock**"
       ]
     },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "id": "-85cz4_mvwKh"
-      },
-      "source": [
-        "import random                                                                          # importing the library"
-      ],
-      "execution_count": 4,
-      "outputs": []
-    },
+   
     {
       "cell_type": "markdown",
       "metadata": {
@@ -57,55 +47,4 @@ Rock-Paper-Scissors-Lizard-Spock
         "**r = Rock, p = Paper, s = Scissors, l = Lizard, spo = Spock**"
       ]
     },
-    {
-      "cell_type": "code",
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "JEftzKbZxEj_",
-        "outputId": "927b0585-1310-443c-8b78-14a4ff8b7c7f"
-      },
-      "source": [
-        "begin = 'y'                                                                           \n",
-        "while begin.lower() == 'y':\n",
-        "   moves = ['r','p','s', 'l', 'spo']                                                                           # possible moves\n",
-        "   player_wins = ['pr','sp','rs', 'lp', 'lspo', 'spos','spor', 'rl', 'sl','pspo']                              # winning possibility\n",
-        "   player_moves = input('Enter your move \"r = Rock, p = Paper, s = Scissors, l = Lizard, spo = Spock:\"')      # user input\n",
-        "   computer_moves = random.choice(moves)                                                                       # random computer moves from random.choices\n",
-        "   print(\"Computer's move is {} :\".format('computer_moves'))                                                   # printing through string formatting method\n",
-        "   print(\"Player's move is: %s\" %(player_moves))                                                               # printing through string formatting method       \n",
-        "    \n",
-        "   if player_moves == computer_moves:                                                                          # Implementing NestedIf loop  \n",
-        "       print(\"tie\")\n",
-        "   elif player_moves + computer_moves in player_wins:\n",
-        "       print(\"you win\")\n",
-        "   else: \n",
-        "       print(\"you lose\")\n",
-        "  \n",
-        "   begin = input(\"Do you want to continue? y = yes, q = quit : \")                      # taking user input in the variable begin that whether to continue the game or not\n",
-        "   if begin.lower() == 'q':                                                            # converting the input to lower case and implenting if and break. \n",
-        "       break"
-      ],
-      "execution_count": 8,
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            " Enter your move \"r = Rock, p = Paper, s = Scissors, l = Lizard, spo = Spock:\"r\n",
-            "Computer's move is computer_moves :\n",
-            "Player's move is: r\n",
-            "you win\n",
-            "Do you want to continue? y = yes, q = quit : y\n",
-            " Enter your move \"r = Rock, p = Paper, s = Scissors, l = Lizard, spo = Spock:\"spo\n",
-            "Computer's move is computer_moves :\n",
-            "Player's move is: spo\n",
-            "you lose\n",
-            "Do you want to continue? y = yes, q = quit : q\n"
-          ]
-        }
-      ]
-    }
-  ]
-} 
+   
